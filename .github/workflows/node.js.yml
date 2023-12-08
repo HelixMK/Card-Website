@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  contents: write
+  
 jobs:
   build:
 
@@ -28,7 +31,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-    - run: npm build
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
