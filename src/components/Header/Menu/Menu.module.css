@@ -1,0 +1,84 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1024px;
+  height: 4rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  background-color: rgba(24, 24, 24, .3);
+  backdrop-filter: blur(12px);
+
+  border-color: rgba(40,39,39,.2);
+  border-width: 1px;
+  border-radius: .75rem;
+
+
+}
+
+.menu__start {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+
+
+}
+
+.logo {
+  width: 40px;
+  height: 26px;
+}
+
+.nav__ul{
+  display: flex;
+  margin: 0;
+  padding: .25rem;
+  gap: 2.5rem;
+
+  align-items: center;
+  list-style-type: none;
+  
+}
+.link {
+  display: block;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.link a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.menu__end {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: hsla(0,0%,100%,.7);
+}
+
+.resource {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hr {
+  height: 1.5rem;
+  width: 1px;
+  background-color: hsla(0,0%,100%,.25);
+}
+
+.theme {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  border-radius: .5rem;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}

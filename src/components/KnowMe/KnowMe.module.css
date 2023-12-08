@@ -1,0 +1,42 @@
+.root {
+  margin-top: 6rem;
+}
+
+.root__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.lists {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lists__item {
+  display: flex;
+  padding-top: 4rem;
+  border-width: 1px;
+  border-radius: 1.5rem;
+  background-color: rgb(24, 24, 24);
+  border-color: transparent;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item__title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.item__description {
+  color: rgb(128,128,128);
+  text-align: center;
+  margin-top: .5rem;
+}

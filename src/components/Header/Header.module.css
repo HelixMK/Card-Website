@@ -1,0 +1,8 @@
+.header {
+  display: block;
+  padding-inline: 1rem;
+  z-index: 999;
+  position: relative;
+
+  margin-top: 2rem;
+}

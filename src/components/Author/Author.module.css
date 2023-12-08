@@ -1,0 +1,122 @@
+
+.author {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 8rem;
+}
+.author__block {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    z-index: 10;
+
+    gap: 2.5rem;
+
+    width: 66%;
+    left: 0;
+}
+.author__title {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+    color: rgb(128 128 128);
+    line-height: 120%;
+}
+.title__name {
+    color: rgb(255 255 255);
+}
+.author__description {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: left;
+    color: rgb(128 128 128);
+}
+
+.author__photo {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 9999px;
+    margin-inline-end: -120px;
+
+    margin-top: 1.5rem;
+
+    width: 540px;
+    height: 540px;
+}
+.photo__block {
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
+.photo__backgroud {
+    background: radial-gradient(
+            48.31% 55.24% at 50.54% 40.52%,
+            hsla(0, 0%, 98%, 0) 0,
+            #0d0d0d 100%
+    );
+
+    width: 540px;
+    height: 540px;
+
+    position: absolute;
+}
+.photo__img {
+    position: absolute;
+
+    bottom: 0.25rem;
+    left: 50%;
+
+    max-width: 100%;
+    height: auto;
+
+    z-index: -10;
+
+    transform: translate(-50%, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.author__links {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    align-items: center;
+    margin-top: 2.5rem;
+    gap: 1rem;
+}
+.link__resume {
+    display: flex;
+    width: fit-content;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    box-shadow:
+            0 12px 12px 0 rgba(0, 0, 0, 0.1),
+            inset 0 2px 4px 0 hsla(0, 0%, 100%, 0.1),
+            inset 0 1px 2px 0 hsla(0, 0%, 100%, 0.2);
+    background-image: linear-gradient(180deg, #1a1a1a, #131313);
+    color: rgb(197, 197, 197);
+
+    border-radius: 0.5rem;
+}
+.link__contact {
+    display: flex;
+    width: fit-content;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+
+    background-color: rgb(24 24 24);
+    color: rgb(197, 197, 197);
+    border-radius: 0.5rem;
+}

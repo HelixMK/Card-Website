@@ -1,0 +1,31 @@
+:root {
+    /* BASIC */
+    --black: rgb(13, 13, 13);
+    --white: rgb(255, 255, 255);
+    --onyx: rgb(24, 24, 24);
+
+    --dark-gray: rgb(128, 128, 128);
+    --basic-medium-gray: rgba(128, 128, 128, 0.50);
+    --light-gray: rgb(197, 197, 197);
+
+    --basic-light-blue: rgba(63, 100, 234, 0.43);
+    --basic-light-red: rgba(233, 63, 64, 0.43);
+    --basic-light-yellow: rgba(255, 184, 0, 0.43);
+
+    /* DARK */
+    --background__secondary: rgb(40, 40, 40);
+    --dark-card-border: rgb(56, 55, 55);
+    --dark-white-10: rgba(255, 255, 255, 0.10);
+    --dark-white-25: rgba(255, 255, 255, 0.25);
+    --dark-black-50: rgba(21, 21, 21, 0.50);
+    --dark-white-70: rgba(255, 255, 255, 0.70);
+
+    /* LIGHT */
+    --light-main-bg: rgb(251, 251, 251);
+    --light-faint-white: rgb(243, 243, 243);
+    --light-card-border: rgb(235, 235, 235);
+    --light-card-bg: rgb(246, 246, 246);
+
+    /* GRADIENT */
+    --gradient-dark-gradient: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+}
