@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   distDir: "dist",
-  assetPrefix: '/Card-Website',
+  basePath: '/Card-Website',
   reactStrictMode: true,
   images: {
     loader: "akamai",
