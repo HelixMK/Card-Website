@@ -10,7 +10,7 @@ const Author = () => {
       <div className={styles.author__block}>
         <div>
           <h1 className={styles.author__title}>
-            I'm <span className={styles.title__name}>Maksim Kasatkin</span>
+            I&apos;m <span className={styles.title__name}>Maksim Kasatkin</span>
           </h1>
           <p className={styles.author__description}>
             A back-end developer and DevOps engineer. I specialize in create
